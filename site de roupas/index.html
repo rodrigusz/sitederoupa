@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="img/6695721.png">
+
+    <title>Site de Roupas</title>
+</head>
+<body>
+    
+
+    <!--BARRA DE CIMA-->
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/6695721.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                LOJAYTA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">NOVIDADES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PRODUTOS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Vestidos</a></li>
+                  <li><a class="dropdown-item" href="#">Blusas</a></li>
+                  <li><a class="dropdown-item" href="#">Casacos</a></li>
+                  <li><a class="dropdown-item" href="#">Calças</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">EM PROMOÇÃO</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Digite aqui" aria-label="Search">
+              <button type="button" class="btn btn-secondary"><span class="material-symbols-outlined">search</span></button>
+            </form>
+            
+            <li class="navbar-nav my-lg-0 nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined">person</span>ENTRAR</a>
+            </li>
+
+            <li class="navbar-nav my-lg-0 nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><span class="material-symbols-outlined">shopping_cart</span>CARINHO</a>
+            </li>
+
+          </div>
+        </div>
+    </nav>
+
+
+    <!--CARROSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/car1.webp" class="d-block w-100" alt="ca1">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/car2.webp" class="d-block w-100" alt="ca2">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/car3.webp" class="d-block w-100" alt="ca3">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/car4.webp" class="d-block w-100" alt="ca4">
+          </div>
+          <div class="carousel-item active">
+            <img src="img/car5.webp" class="d-block w-100" alt="ca5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <br>
+
+    <!--AS IMAGENS QUE TEM LA-->
+    <p class="text-decoration-underline fw-bold fs-4 text-danger mx-3">LOOKS DE FESTA!</p>
+
+      <div class="row g-0">
+            <div class="col-md-3 ">
+                <img src="img/banner1.webp" class="img-fluid rounded-start" alt="banner1">
+            </div>
+            
+            
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 d-flex align-items-stretch mx-3">
+                <div class="card text-center bg-light" style="width: 250px;">
+                    <a href="#" class="position-absolute right-0 p-2 text-denger">
+                        <svg class="bi" width="24" height="24" fill="currentColor">
+                            <use xlink:href="/bi.svg#suit-heart"/>
+                        </svg>
+                    </a>
+                    <img src="img/bannerimg1.webp" class="card-img-top" alt="banimg1">
+                    <div class="card-header">
+                      R$ 349,90
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">LABRAVA</h5>
+                        <p class="card-text">Vestido midi envelope preto labrava</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <form class="d-block">
+                            <button class="btn btn-secondary">
+                                Adicionar ao Carrinho
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mx-3">
+                <div class="card text-center bg-light" style="width: 250px;">
+                    <a href="#" class="position-absolute right-0 p-2 text-denger">
+                        <svg class="bi" width="24" height="24" fill="currentColor">
+                            <use xlink:href="/bi.svg#suit-heart"/>
+                        </svg>
+                    </a>
+                    <img src="img/bannerimg2.webp" class="card-img-top" alt="banimg2">
+                    <div class="card-header">
+                      R$ 567,00
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">MyFT</h5>
+                        <p class="card-text">Vestido alfaiataria sem mangas myft</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <form class="d-block">
+                            <button class="btn btn-secondary">
+                                Adicionar ao Carrinho
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch mx-3">
+              <div class="card text-center bg-light" style="width: 250px;">
+                  <a href="#" class="position-absolute right-0 p-2 text-denger">
+                      <svg class="bi" width="24" height="24" fill="currentColor">
+                          <use xlink:href="/bi.svg#suit-heart"/>
+                      </svg>
+                  </a>
+                  <img src="img/bannerimg3.webp" class="card-img-top" alt="banimg3">
+                  <div class="card-header">
+                    R$ 369,00
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title">PEQUIÁ</h5>
+                      <p class="card-text">Macacão piquet alça preto pequiá</p>
+                  </div>
+
+                  <div class="card-footer">
+                      <form class="d-block">
+                          <button class="btn btn-secondary">
+                              Adicionar ao Carrinho
+                          </button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
+            <div class="card text-center bg-light" style="width: 250px;">
+                <a href="#" class="position-absolute right-0 p-2 text-denger">
+                    <svg class="bi" width="24" height="24" fill="currentColor">
+                        <use xlink:href="/bi.svg#suit-heart"/>
+                    </svg>
+                </a>
+                <img src="img/bannerimg4.webp" class="card-img-top" alt="banimg4">
+                <div class="card-header">
+                  R$ 725,14
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Animale</h5>
+                    <p class="card-text">Vestido longo com vivos bicolor animale</p>
+                </div>
+
+                <div class="card-footer">
+                    <form class="d-block">
+                        <button class="btn btn-secondary">
+                            Adicionar ao Carrinho
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      
+
+      <!--RODAPE-->
+      <footer class="bg-dark text-light">
+        <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-4 mx-auto">
+            <ul class="nav text-center">
+              <li class="nav-link"><a class="text-light" href="index.html">Voltar ao Inicio</a></li>
+              <li class="nav-link"><a class="text-light" href="https://instagram.com">Instagram</a></li>
+              <li class="nav-link"><a class="text-light" href="https://twitter.com">Twitter</a></li>
+              <li class="nav-link"><a class="text-light" href="https://Facebook.com">Facebook</a></li>
+            </ul>
+          </div> 
+        </div>
+        </div>
+        <div class="text-center" style="background-color: #333; padding: 20px;" >
+          &copy 2023 
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
